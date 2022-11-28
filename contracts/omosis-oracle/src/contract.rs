@@ -2,7 +2,6 @@
 use cosmwasm_std::entry_point;
 use cosmwasm_std::{Binary, Deps, DepsMut, Env, MessageInfo, Response, StdResult, IbcMsg, to_binary, Uint64};
 use cw2::set_contract_version;
-// use cw2::set_contract_version;
 
 use crate::error::ContractError;
 use crate::ibc::DEFAULT_PACKET_LIFETIME;
